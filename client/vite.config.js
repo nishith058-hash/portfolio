@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: '/project-portfolio/',
+    base: '/portfolio/',
     server: {
         proxy: {
             '/api': {
